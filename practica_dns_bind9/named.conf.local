@@ -11,5 +11,5 @@ zone "pruebadns.org" {
 
 zone "200.168.192.in-addr.arpa" {
 	type master;
-	file "/etc/bind/db.200.168.192";
+	file "/etc/bind/200.168.192.db";
 };
