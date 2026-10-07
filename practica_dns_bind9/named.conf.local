@@ -1,0 +1,15 @@
+//
+// Do any local configuration here
+//
+
+zone "pruebadns.org" {
+	type master;
+	file "/etc/bind/pruebadns.org.db";
+
+};
+
+
+zone "200.168.192.in-addr.arpa" {
+	type master;
+	file "/etc/bind/db.200.168.192";
+};
