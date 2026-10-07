@@ -1,0 +1,14 @@
+$TTL	604800
+@ IN	SOA	dns.pruebadns.org.	root.pruebadns.org.  (
+		2; 		Serial
+		604800;		Refresh
+		86400;		Retry
+		2419200;	Expire
+		604800 )	; Negative cahce TTL
+
+
+@			IN	NS	dns.pruebadns.org.
+10			IN	PTR dns.pruebadns.org.
+20			IN	PTR ubuntu-desktop.pruebadns.org.
+202			IN	PTR	aula5pc2.pruebadns.org.
+51			IN	PTR	mail.pruebadns.org.
